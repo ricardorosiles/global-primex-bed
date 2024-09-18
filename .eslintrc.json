@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "./node_modules/@umvel/javascript-base-guidelines/.eslintrc.json",
+    "./node_modules/@umvel/typescript-base-guidelines/eslintrc.umvel.json"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "implicit-arrow-linebreak": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "function-paren-newline": "off",
+    "@typescript-eslint/no-unused-vars": "error"
+  }
+}
